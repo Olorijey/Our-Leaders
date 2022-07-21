@@ -1,0 +1,1458 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 1px 0 0 #FFA500;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header .logo {
+    padding-left: 24px;
+    display: inline-block;
+    font-size: 27px;
+}
+
+header .logo .blue-dot{
+    background-color: #FFA500;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+header nav {
+    display: inline-block;
+} 
+ 
+
+header nav ul li.menu-icon {
+    display: none;
+}
+
+
+header nav ul li.menu-icon img {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    font-size: 15x;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #FFA500;
+}
+
+header nav ul li :last-of-type a {
+    margin: 0;
+}
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .contain {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero .contain .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.hero .contain h2 {
+    font-size: 34px;
+    max-width: 100%;
+    padding-top: 45px;
+    justify-content: center;
+}
+
+.hero .contain h2 span {
+    color: #fFA500;
+}
+
+.hero .contain .topic {
+    margin-top: 15px;
+    justify-items: center;
+    text-align: center;
+}
+
+.hero .contain .topic .top{
+    
+    padding-bottom: 7px;
+}
+
+.hero .contain .topic-content p {
+    top: 30px;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+    font-size: 38px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 21px;
+}
+
+.hero .contain .topic button {
+    height: 40px;
+    width: 140px;
+    margin-top: 15px;
+    color: #FFA500;
+    box-sizing: border-box;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #FFA500;
+    border: 1px solid #fFA500;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero .contain .topic button a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+.hero .contain .topic button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.time {
+    padding-top: 50px;
+}
+
+.time .opens {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.time .opens .open {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+.time .opens .open i {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.time .opens .open .inner {
+    padding: 2px 16px;
+    max-width: 170px;
+}
+
+.time .opens .open .inner h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.time .opens .open .inner p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.hand {
+    padding-top: 120px;
+    padding-left: 160px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.hand img {
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.hand .texts {
+    padding-right: 160px;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+.hand .texts h2 {
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.hand .texts h2 span {
+    color: #FFA500;
+}
+
+.hand .texts p {
+    line-height: 18px;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.hand .all-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hand .all-class .all h2 {
+    font-size: 34;
+    color: #fFA500;
+}
+
+
+.practice {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.practice h2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.practice p {
+    line-height: 18px;
+}
+
+.practice .opens {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.practice .opens .open {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.practice .opens .open .inner {
+    padding: 2px 16px;
+    max-width: 170px;
+}
+
+.practice .opens .open .inner h2 {
+    color: #FFA500;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.practice .opens .open .inner p {
+    padding-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.hands {
+    padding-top: 120px;
+    padding-left: 160px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.hands img {
+    padding-right: 160px;
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+}
+
+.hands .texts {
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+.hands .texts h2 {
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.hands .texts h2 span {
+    color: #FFA500;
+}
+.hands .texts p {
+    line-height: 18px;
+    font-size: 14;
+    padding-bottom: 20px;
+}
+
+.hands .all-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hands .all-class .all h2 {
+    font-size: 34;
+    color: #fFA500;
+}
+
+.teacher {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.teacher h2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.teacher p {
+    line-height: 18px;
+}
+
+.teacher .opens {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.teacher .opens .open {
+   
+    border-radius: 20px;
+    text-align: center;
+}
+
+.teacher .opens .open img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.teacher .opens .open .inner {
+    padding: 2px 16px;
+    max-width: 170px;
+}
+
+.teacher .opens .open .inner h2 {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.practice .opens .open .inner p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.butt {
+    position: relative;
+    padding-top: 30px;
+}
+
+.butt img{
+    width: 100%;
+    opacity: 70%;
+}
+
+.butt .apply {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.butt .apply .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.butt .apply h2 {
+    font-size: 44px;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.butt .apply p {
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.butt .apply button {
+    height: 40px;
+    width: 140px;
+    color: #FFA500;
+    box-sizing: border-box;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #FFA500;
+    border: 1px solid #fFA500;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.butt .apply button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+footer {
+    width: 100%;
+    background-color: #3e3e3e;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height: 120px;
+}
+
+footer h3 {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+
+footer .social a i{
+    justify-content: space-around;
+    padding: 15px;
+}
+
+
+
+footer .copyright-text {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+
+
+
+/*Start of design for mobile phone*/
+@media screen and (min-width: 300px) {
+
+    header{
+        background-color: white;
+        box-shadow: 0 1px 0 0 #FFA500;
+        height: 45px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        z-index: 1;
+    }
+    
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    header .logo {
+        margin-left: 14px;
+        font-size: 20px;
+    }
+    
+    header .logo .blue-dot{
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+    }
+    
+    
+    header nav ul li a {
+        font-size: 11x;
+        letter-spacing: 0.27px;
+        margin-right: 12px;
+    }
+    
+    
+    
+    header nav {
+        display: inline-block;
+    } 
+     
+    
+    header nav ul li.menu-icon {
+        display: none;
+    }
+    
+    
+    header nav ul li.menu-icon img {
+        vertical-align: middle;
+        width: 20px;
+        height: auto;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    header nav ul li a:hover {
+        color: #FFA500;
+    }
+    
+    header nav ul li :last-of-type a {
+        margin: 0;
+    }
+    
+    
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero .contain {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    
+    .hero .contain .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero .contain h2 {
+        font-size: 34px;
+        max-width: 100%;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    
+    .hero .contain h2 span {
+        color: #fFA500;
+    }
+    
+    .hero .contain .topic {
+        margin-top: 15px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .hero .contain .topic .top{
+        
+        padding-bottom: 7px;
+    }
+    
+    .hero .contain .topic-content p {
+        top: 30px;
+        text-align: center;
+        color: #000;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        margin-bottom: 21px;
+    }
+    
+    .hero .contain .topic button {
+        height: 40px;
+        width: 140px;
+        margin-top: 15px;
+        color: #FFA500;
+        box-sizing: border-box;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #FFA500;
+        border: 1px solid #fFA500;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .hero .contain .topic button a {
+        color: #3e3e3e;
+        text-decoration: none;
+    }
+    
+    
+    .hero .contain .topic button:hover{
+        color: #FFA500;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    
+    .time {
+        padding-top: 50px;
+        max-width: 100%;
+    }
+    
+    .time .opens {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        max-width: 100%;
+    }
+    
+    .time .opens .open {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        background-color: rgb(250, 250, 250);
+        text-align: center;
+    }
+    
+    .time .opens .open i {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .time .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 170px;
+    }
+    
+    .time .opens .open .inner h2 {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    
+    .time .opens .open .inner p {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .hand {
+        padding-top: 40px;
+        padding-left: 0;
+        display: block;
+        position: relative;
+        text-align: center;
+        justify-content: space-evenly;
+        max-width: 100%;
+    }
+    
+    .hand img {
+        border-radius: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .hand .texts {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 20px;
+        max-width: 100%;
+    }
+    
+    .hand .texts h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .hand .texts h2 span {
+        color: #FFA500;
+    }
+    
+    .hand .texts p {
+        line-height: 18px;
+        font-size: 14;
+        padding-bottom: 20px;
+        max-width: 100%;
+    }
+    
+    .hand .all-class {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hand .all-class .all h2 {
+        font-size: 34;
+        color: #fFA500;
+    }
+    
+    
+    .practice {
+        padding-top: 100px;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .practice h2 {
+        font-size: 34px;
+        padding-bottom: 10px;
+    }
+    
+    .practice p {
+        line-height: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .practice .opens {
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        padding:  100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        max-width: 100%;
+        
+    }
+    
+    .practice .opens .open {
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .practice .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 100%;
+    }
+    
+    .practice .opens .open .inner h2 {
+        color: #FFA500;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+    
+    .practice .opens .open .inner p {
+        padding-bottom: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    
+    .hands {
+        padding-top: 120px;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: block;
+        position: relative;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    .hands img {
+        padding-right: 0;
+        border-radius: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .hands .texts {
+
+        padding-top: 20px;
+        max-width: 100%;
+    }
+    
+    .hands .texts h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .hands .texts h2 span {
+        color: #FFA500;
+    }
+    .hands .texts p {
+        line-height: 18px;
+        font-size: 14;
+        padding-bottom: 20px;
+    }
+    
+    .hands .all-class {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hands .all-class .all h2 {
+        font-size: 34;
+        color: #fFA500;
+    }
+    
+    .teacher {
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .teacher h2 {
+        font-size: 34px;
+        padding-bottom: 10px;
+    }
+    
+    .teacher p {
+        line-height: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .teacher .opens {
+        display: block;
+        justify-content: space-between;
+        padding: 0 100px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .teacher .opens .open {
+       
+        border-radius: 20px;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .teacher .opens .open img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .teacher .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 100%;
+    }
+    
+    .teacher .opens .open .inner h2 {
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+    
+    .practice .opens .open .inner p {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .butt {
+        display: block;
+        position: relative;
+        padding-top: 0;
+        max-width: 100%;
+    }
+    
+    .butt img{
+        display: none;
+    }
+    
+    .butt .apply {
+        top: 50px;
+        text-align: center;
+        max-width: 100%;
+        justify-content: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 100%;
+    }
+    
+    .butt .apply .container {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        max-width: 100%;
+    }
+    
+    .butt .apply h2 {
+        font-size: 44px;
+        max-width: 100%;
+        padding-top: 2px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .butt .apply p {
+        max-width: 100%;
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+    
+    .butt .apply button {
+        height: 40px;
+        width: 140px;
+        color: #FFA500;
+        box-sizing: border-box;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #FFA500;
+        border: 1px solid #fFA500;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .butt .apply button:hover{
+        color: #FFA500;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    
+    footer {
+        width: 100%;
+        margin-top: 350px;
+        background-color: #3e3e3e;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        height: 100px;
+    }
+    
+    footer h3 {
+        text-align: center;
+        color: #fff;
+        padding-top: 10px;
+    }
+    
+    footer .social a i{
+        justify-content: space-around;
+        padding: 7px;
+    }
+    
+    
+    
+    footer .copyright-text {
+        padding-bottom: 10px;
+        color: #fff;
+    }
+}
+
+
+/*Start of design for tablet*/
+@media screen and (min-width: 1200px) {
+    header{
+        background-color: white;
+        box-shadow: 0 1px 0 0 #FFA500;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        z-index: 1;
+    }
+    
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+    
+    header .logo {
+        padding-left: 24px;
+        display: inline-block;
+        font-size: 27px;
+    }
+    
+    header .logo .blue-dot{
+        background-color: #FFA500;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+    
+    header nav {
+        display: inline-block;
+    } 
+     
+    
+    header nav ul li.menu-icon {
+        display: none;
+    }
+    
+    
+    header nav ul li.menu-icon img {
+        vertical-align: middle;
+        width: 20px;
+        height: auto;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav ul li a {
+        color: #3e3e3e;
+        font-size: 15x;
+        letter-spacing: 0.37px;
+        margin-right: 24px;
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        color: #FFA500;
+    }
+    
+    header nav ul li :last-of-type a {
+        margin: 0;
+    }
+    
+    
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero .contain {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    
+    .hero .contain .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    .hero .contain h2 {
+        font-size: 34px;
+        max-width: 100%;
+        padding-top: 45px;
+        justify-content: center;
+    }
+    
+    .hero .contain h2 span {
+        color: #fFA500;
+    }
+    
+    .hero .contain .topic {
+        margin-top: 15px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .hero .contain .topic .top{
+        
+        padding-bottom: 7px;
+    }
+    
+    .hero .contain .topic-content p {
+        top: 30px;
+        text-align: center;
+        color: #000;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        margin-bottom: 21px;
+    }
+    
+    .hero .contain .topic button {
+        height: 40px;
+        width: 140px;
+        margin-top: 15px;
+        color: #FFA500;
+        box-sizing: border-box;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #FFA500;
+        border: 1px solid #fFA500;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .hero .contain .topic button a {
+        color: #3e3e3e;
+        text-decoration: none;
+    }
+    
+    
+    .hero .contain .topic button:hover{
+        color: #FFA500;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    
+    .time {
+        padding-top: 50px;
+    }
+    
+    .time .opens {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .time .opens .open {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+        background-color: rgb(250, 250, 250);
+        text-align: center;
+    }
+    
+    .time .opens .open i {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .time .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 170px;
+    }
+    
+    .time .opens .open .inner h2 {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    
+    .time .opens .open .inner p {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .hand {
+        padding-top: 120px;
+        padding-left: 160px;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    
+    .hand img {
+        border-radius: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .hand .texts {
+        padding-right: 160px;
+        padding-top: 20px;
+        max-width: 500px;
+    }
+    
+    .hand .texts h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .hand .texts h2 span {
+        color: #FFA500;
+    }
+    
+    .hand .texts p {
+        line-height: 18px;
+        font-size: 14;
+        padding-bottom: 20px;
+    }
+    
+    .hand .all-class {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hand .all-class .all h2 {
+        font-size: 34;
+        color: #fFA500;
+    }
+    
+    
+    .practice {
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .practice h2 {
+        font-size: 34px;
+        padding-bottom: 10px;
+    }
+    
+    .practice p {
+        line-height: 18px;
+    }
+    
+    .practice .opens {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .practice .opens .open {
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .practice .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 170px;
+    }
+    
+    .practice .opens .open .inner h2 {
+        color: #FFA500;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .practice .opens .open .inner p {
+        padding-bottom: 0;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    
+    .hands {
+        padding-top: 120px;
+        padding-left: 160px;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+    
+    .hands img {
+        padding-right: 160px;
+        border-radius: 20px;
+        width: 300px;
+        height: 400px;
+    }
+    
+    .hands .texts {
+        padding-top: 20px;
+        max-width: 500px;
+    }
+    
+    .hands .texts h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+    }
+    
+    .hands .texts h2 span {
+        color: #FFA500;
+    }
+    .hands .texts p {
+        line-height: 18px;
+        font-size: 14;
+        padding-bottom: 20px;
+    }
+    
+    .hands .all-class {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .hands .all-class .all h2 {
+        font-size: 34;
+        color: #fFA500;
+    }
+    
+    .teacher {
+        padding-top: 100px;
+        text-align: center;
+    }
+    
+    .teacher h2 {
+        font-size: 34px;
+        padding-bottom: 10px;
+    }
+    
+    .teacher p {
+        line-height: 18px;
+    }
+    
+    .teacher .opens {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 100px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .teacher .opens .open {
+       
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .teacher .opens .open img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .teacher .opens .open .inner {
+        padding: 2px 16px;
+        max-width: 170px;
+    }
+    
+    .teacher .opens .open .inner h2 {
+        margin-bottom: 2px;
+        font-size: 18px;
+    }
+    
+    .practice .opens .open .inner p {
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .butt {
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    
+    .butt img{
+        display: block;
+        width: 100%;
+        opacity: 100%;
+    }
+    
+    .butt .apply {
+        position: absolute;
+        top: 0;
+        width: 460px;
+        height: 100%;
+        left: 623px;
+        text-align: left;
+    }
+    
+    .butt .apply .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .butt .apply h2 {
+        font-size: 44px;
+        max-width: 100%;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    
+    .butt .apply p {
+        line-height: 24px;
+        padding-bottom: 20px;
+    }
+    
+    .butt .apply button {
+        height: 40px;
+        width: 140px;
+        color: #FFA500;
+        box-sizing: border-box;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #FFA500;
+        border: 1px solid #fFA500;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .butt .apply button:hover{
+        color: #FFA500;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    
+    footer {
+        margin-top: 0;
+        width: 100%;
+        top: 0;
+        background-color: #3e3e3e;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        height: 120px;
+    }
+    
+    footer h3 {
+        text-align: center;
+        color: #fff;
+        padding-top: 15px;
+    }
+    
+    footer .social a i{
+        justify-content: space-around;
+        padding: 15px;
+    }
+    
+    
+    
+    footer .copyright-text {
+        padding-bottom: 10px;
+        color: #fff;
+    }   
+}

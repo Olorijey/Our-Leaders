@@ -1,0 +1,576 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 1px 0 0 black;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 27px;
+}
+
+header .logo .blue-dot{
+    background-color: #FFA500;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+header nav {
+    display: inline-block;
+} 
+ 
+
+header nav ul li.menu-icon {
+    display: none;
+}
+
+
+header nav ul li.menu-icon img {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    font-size: 15x;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #FFA500;
+}
+
+header nav ul li :last-of-type a {
+    margin: 0;
+}
+
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 40%;
+}
+
+.hero .contain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero .contain .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.hero .contain h2 {
+    font-size: 44px;
+    max-width: 100%;
+    padding-top: 250px;
+    justify-content: center;
+}
+
+.hero .contain .topic {
+    margin-top: 15px;
+    justify-items: center;
+    text-align: center;
+}
+
+.hero .contain .topic-content p {
+    top: 30px;
+    text-align: center;
+    max-width: 650px;
+    color: #000;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 21px;
+}
+
+.hero .contain .topic button {
+    height: 40px;
+    width: 140px;
+    margin-top: 15px;
+    color: #FFA500;
+    box-sizing: border-box;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #FFA500;
+    border: 1px solid #fFA500;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hero .contain .topic button a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+.hero .contain .topic button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+/*Start of design for mobile phone*/
+@media screen and (min-width: 200px) {
+
+    header{
+        height: 50px;
+    }
+
+    header .logo {
+        margin-left: 14px;
+        font-size: 23px;
+    }
+    
+    header .logo .blue-dot{
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+    }
+    
+    
+    header nav ul li a {
+        font-size: 11x;
+        letter-spacing: 0.27px;
+        margin-right: 14px;
+    }
+
+    
+.hero {
+    position: absolute;
+}
+
+.hero img {
+    opacity: 100%;
+}
+
+.hero .contain {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero .contain .container {
+    display: inline-block;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.hero .contain h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.hero .contain .topic {
+    margin-top: 15px;
+}
+
+.hero .contain .topic-content p {
+    top: 15px;
+    font-size: 25px;
+}
+
+.hero .contain .topic button {
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.hero .contain .topic button a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+.hero .contain .topic button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+    
+}
+
+
+
+/*Start of design for tablet*/
+@media screen and (min-width: 371px) {
+
+    
+    header{
+        height: 50px;
+    }
+
+    header .logo {
+        margin-left: 14px;
+        font-size: 23px;
+    }
+    
+    header .logo .blue-dot{
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+    }
+    
+    
+    header nav ul li a {
+        font-size: 11x;
+        letter-spacing: 0.27px;
+        margin-right: 14px;
+    }
+
+    
+.hero {
+    position: absolute;
+}
+
+.hero img {
+    opacity: 100%;
+}
+
+.hero .contain {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero .contain .container {
+    display: inline-block;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.hero .contain h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0;
+}
+
+.hero .contain .topic {
+    margin-top: 15px;
+}
+
+.hero .contain .topic-content p {
+    top: 15px;
+    font-size: 25px;
+}
+
+.hero .contain .topic button {
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.hero .contain .topic button a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+.hero .contain .topic button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+}
+
+/*Start of design for samll desktop*/
+@media screen and (min-width: 550px) {
+
+    
+    header{
+        height: 45px;
+    }
+
+    header .logo {
+        margin-left: 14px;
+        font-size: 23px;
+    }
+    
+    header .logo .blue-dot{
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+    }
+    
+    
+    header nav ul li a {
+        font-size: 11x;
+        letter-spacing: 0.27px;
+        margin-right: 14px;
+    }
+
+    
+.hero {
+    position: absolute;
+}
+
+.hero img {
+    opacity: 20%;
+}
+
+.hero .contain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero .contain .container {
+    display: inline-block;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.hero .contain h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.hero .contain .topic {
+    margin-top: 15px;
+}
+
+.hero .contain .topic-content p {
+    top: 15px;
+    font-size: 25px;
+}
+
+.hero .contain .topic button {
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.hero .contain .topic button a {
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+.hero .contain .topic button:hover{
+    color: #FFA500;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+}
+
+
+
+/*Start of design for tablet*/
+@media screen and (min-width: 800px) {
+
+
+    header{
+        background-color: white;
+        box-shadow: 0 1px 0 0 black;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        z-index: 1;
+    }
+    
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+    
+    header .logo {
+        display: inline-block;
+        font-size: 27px;
+    }
+    
+    header .logo .blue-dot{
+        background-color: #FFA500;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
+    
+    header nav {
+        display: inline-block;
+    } 
+     
+    
+    header nav ul li.menu-icon {
+        display: none;
+    }
+    
+    
+    header nav ul li.menu-icon img {
+        vertical-align: middle;
+        width: 20px;
+        height: auto;
+    }
+    
+    header nav ul li{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header nav ul li a {
+        color: #3e3e3e;
+        font-size: 15x;
+        letter-spacing: 0.37px;
+        margin-right: 24px;
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        color: #FFA500;
+    }
+    
+    header nav ul li :last-of-type a {
+        margin: 0;
+    }
+    
+    
+    .hero {
+        position: relative;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: auto;
+        opacity: 40%;
+    }
+    
+    .hero .contain {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    
+    .hero .contain .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+    }
+    .hero .contain h2 {
+        font-size: 44px;
+        max-width: 100%;
+        padding-top: 250px;
+        justify-content: center;
+    }
+    
+    .hero .contain .topic {
+        margin-top: 15px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .hero .contain .topic-content p {
+        top: 30px;
+        text-align: center;
+        max-width: 650px;
+        color: #000;
+        font-weight: 300;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        margin-bottom: 21px;
+    }
+    
+    .hero .contain .topic button {
+        height: 40px;
+        width: 140px;
+        margin-top: 15px;
+        color: #FFA500;
+        box-sizing: border-box;
+        border-radius: 40px 40px 40px 40px;
+        background-color: #FFA500;
+        border: 1px solid #fFA500;
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .hero .contain .topic button a {
+        color: #3e3e3e;
+        text-decoration: none;
+    }
+    
+    
+    .hero .contain .topic button:hover{
+        color: #FFA500;
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+}
